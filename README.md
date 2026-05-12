@@ -1,6 +1,6 @@
-# RAG AI System — Ask Your Documents, Privately
+# RAG AI System: Ask Your Documents, Privately
 
-> A fully local Retrieval-Augmented Generation (RAG) pipeline with a Streamlit chat UI — upload any PDF, ask questions in plain English, and get grounded, streamed answers. Zero cloud. Zero API keys. Zero data leaving your machine.
+> A fully local Retrieval-Augmented Generation (RAG) pipeline with a Streamlit chat UI: upload any PDF, ask questions in plain English, and get grounded, streamed answers. Zero cloud. Zero API keys. Zero data leaving your machine.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -12,7 +12,7 @@
 
 ## What Is This?
 
-RAG AI System is a fully local Retrieval-Augmented Generation pipeline that lets you upload a PDF and ask natural-language questions against it — with the answer streamed token-by-token directly to your browser.
+RAG AI System is a fully local Retrieval-Augmented Generation pipeline that lets you upload a PDF and ask natural-language questions against it; with the answer streamed token-by-token directly to your browser.
 
 Most document Q&A tools send your files to OpenAI or some other cloud service. This project keeps the entire pipeline on your machine: a MiniLM embedding model converts your document into semantic vectors, a pure-Python cosine-search index retrieves the most relevant paragraphs, and Qwen2.5-3B-Instruct generates a grounded answer from those paragraphs alone.
 
@@ -168,8 +168,8 @@ RAG_AI_SYSTEM/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Mohamad-Hachem/RAG_AI_SYSTEM.git
-cd RAG_AI_SYSTEM
+git clone https://github.com/Baldezo313/RAG_LLM_local.git
+cd RAG_LLM_local
 
 # Create and activate a virtual environment
 python -m venv .venv
